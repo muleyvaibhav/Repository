@@ -3,11 +3,11 @@ package com;
 public class Class1 {
 
 	public static void printWelcomeScreen(String appName, String developerName) {
-		String companyDetails = String.format("\n"
+		String Details = String.format("\n"
 				+ " %s \n" + " %s\n"
 				+ "\n", appName, developerName);
 	
-		System.out.println(companyDetails);
+		System.out.println(Details);
 	}
 
 	public static void displayMenu() {
